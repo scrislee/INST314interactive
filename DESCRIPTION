@@ -1,17 +1,38 @@
 Package: INST314interactive
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Adam Gilbert's Applied Stats Interactive tailored to INST314
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Sarah", "Lee",
+      email = "scrislee@umd.edu",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: From Adam Gilbert, agmath: This package deploys interactive 
+    tutorials for a first course in applied statistics. It follows the 
+    OpenIntro Statistics textbook and includes several resources adapted from 
+    that project.  This is a version tailored to INST314.  So all of the credit
+    goes to Adam Gilbert, and all of the flaws can be attributed to Sarah Lee.
+    
+Imports:
+    gradethis,
+    learnr,
+    openintro,
+    ggplot2,
+    dplyr,
+    stringr,
+    tidyr,
+    skimr,
+    ggmosaic,
+    statsr,
+    broom,
+    magrittr
+Remotes:
+    rstudio-education/gradethis,
+    rstudio/learnr,
+    rundel/learnrhash
+License: What license is it under?  Who even knows?
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/scrislee/INST314interactive
