@@ -68,18 +68,41 @@ Once you've installed the package, you should be able to run the tutorials using
 
 ## What should I know before using these workbooks?
 
-###
+### Basics
 
 + Although these notebooks are currently in a usable format, they are continually being improved. Be sure to check GitHub for the latest changes and release notes. 
 
 + If running the packages locally, then those with a most recent version of the `INST314interactive` package may notice additional features. For example, I am working on creating/curating, and embedding more video instruction.
 
-+ The `learnrhash` package provides some ability for student progress tracking through these workbooks. At the end of each workbook there is a subsection called *Submit*, which includes a button for you to generate a `hash` code which represents your completed Tutorial. They will submit these hash codes using a Google Forms.  Note that the form requires you to be logged into your University of Maryland Google account (don't we all have at least two Google accounts these days?). 
++ At the end of each workbook there is a subsection called *Submit*, which includes a button for you to generate a `hash` code which represents your completed Tutorial. You will submit these hash codes using a Google Forms.  Note that the form requires you to be logged into your University of Maryland Google account (don't we all have at least two Google accounts these days?). 
 
 
-###
+
+### Common frustrations, as an FAQ
+
+**Q.** *I got the right graph/result/blah blah but when I submit it says that my code is wrong!*<br>
+**A.** Please look at the Hints to understand what the tutorial is looking for.
+
+**Q.** *But my answer is more correct, if you consider blah blah blah!!!!*.<br> 
+**A.** Quite likely so.  Congratulations.  Do you understand why the tutorial chose a different answer?  Yes? Now choose the one that the tutorial believes to be correct, hit Submit Answer, and move on with your life.
+
+**Q.** *I'm stuck, it is 5 minutes before the tutorial is due, and NoBodY iS aNsWeRiNg ThE eMaIl I sEnT tWo MiNuTeS aGo!*.<br> 
+**A.** Did you read ALL the words in the question, even the mathematical notation?  ALL the words?  Reread ALL the words.  Then try the Hints button.
+
+**Q.** *Yay, I finished the tutorial!*. <br>
+**A.** Did you remember to hit Submit Answer on all Submit Answer buttons???  Are you sure??? Check again.
+
+**Q.** *OH NO.  I clicked "Start Over" and now all of my work on this tutorial is gone!!!*. <br>
+**A.**  I am sorry.  That does stink.  There is no undo.
+
+**Q.** *The tutorial is asking me to remember something from an earlier page or topic?  What?!?*. <br>
+**A.** Yes, you have to go to the old topic to look it up if you don’t remember.  The book may also be of use here.
+
+
+
+### Acknowledgements
 
 Please give a polite round of applause for Adam Gilbert, who created these tutorials, as well as those of us who edit and maintain the INST 314 versions.
 
-Sincerely,
+Sincerely,<br>
 Dr. Lee and the INST 314 Instructional Team
