@@ -16,18 +16,30 @@ Description: From Adam Gilbert, agmath: This package deploys interactive
     goes to Adam Gilbert, and all of the flaws can be attributed to Sarah Lee.
     
 Imports:
-    gradethis,
-    learnr,
-    openintro,
-    ggplot2,
-    dplyr,
-    stringr,
-    tidyr,
-    skimr,
-    ggmosaic,
-    statsr,
+    base64enc,
     broom,
-    magrittr
+    digest,
+    dplyr,
+    evaluate,
+    highr, 
+    htmltools,
+    ggmosaic,
+    ggplot2,
+    gradethis,
+    knitr,
+    learnr,
+    magrittr,
+    mime,
+    openintro,
+    rmarkdown,
+    skimr,
+    stringi,
+    stringr,
+    statsr,
+    tidyr,
+    xfun
+    
+    
 Remotes:
     rstudio-education/gradethis,
     rstudio/learnr,
