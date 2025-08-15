@@ -1,0 +1,85 @@
+---
+title: "Topic 0: Start Here (an Introduction)"
+tutorial:
+  id: "StartHere.Topic0.AppliedStats"
+  version: 1.0
+output: 
+  learnr::tutorial:
+    progressive: TRUE
+    
+runtime: shiny_prerendered
+description: "Start here."
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(ggplot2)
+library(learnr)
+library(gradethis)
+```
+
+
+## Welcome
+
+###
+
+This is a series of workbooks adapted from Adam Gilbert's Applied Stats Interactive.  We will use them to introduce concepts in INST 314.
+
+###
+
+Very limited mathematics background is assumed. Students able to answer the following two questions have the necessary mathematics background:
+
++ Find $z$ if 
+$$\displaystyle{z = \frac{54 - 50}{8/\sqrt{16}}}$$
++ Find $x$ if 
+$$\displaystyle{2 = \frac{x - 50}{8/\sqrt{16}}}$$
+
+###
+
+Each workbook introduces statistics content, asks students to answer questions about their understanding, and allows the user to interact with embedded R code blocks. Immediate feedback is automatically generated once responses are submitted to the questions or embedded code blocks. The code blocks typically ask students to complete example problems or to experiment with the ideas presented, but they'll sometimes be available as a simple calculation space.
+
+If a code chunk has a blue button labeled Submit Answer, then you are required to submit that code for evaluation.  You have as many tries as you want. 
+
+###
+
+From Adam Gilbert: "Whether you are an instructor, student in an organized classroom setting, or someone learning on their own, I truly hope that you find these workbooks to be helpful. If you have any feedback, I would love to hear it -- you can post any issues directly to the [AppliedStatsInteractive GitHub Repository](https://github.com/agmath/AppliedStatsInteractive) or email me directly at [a.gilbert1@snhu.edu](mailto:a.gilbert12snhu.edu)." 
+
+Much of the content in these notebooks is supplementary to [OpenIntro.org](http://www.openintro.org) and the [4th edition of OpenIntro Statistics](https://leanpub.com/openintro-statistics) which is open source and freely available. While most of the content does leverage resources from the OpenIntro site and text, the workbook on Data Visualization is adapted from Chapter 3 of [Grolemund and Wickham's *R for Data Science*](https://r4ds.had.co.nz/). This text is an excellent addition to the library of any aspiring data scientist.  It is both readable and reasonably humane. Check it out!
+
+###
+
+In addition to the resources mentioned here, there are several other great resources for introductory statistics and data science. Just a few are [data8](http://data8.org/) a freely available *Foundations of Data Science* course at UC Berkeley (using Python), [Introduction to Modern Statistics](https://openintro-ims.netlify.app/preface.html) by Mine &Ccedil;etinkaya-Rundel and Jo Hardin, [Modern Dive](https://moderndive.com/index.html) by Albert Kim and Chester Ismay, and [Data Science in a Box](https://datasciencebox.org/index.html) by Mine &Ccedil;etinkaya-Rundel. I hope you'll check these free resources out.
+
+### 
+
+In INST 314 you will run the notebooks locally via an R package as follows:
+
+```{r install, echo = TRUE, eval = FALSE}
+#You'll need the devtools library to install a package from GitHub
+install.packages("devtools")
+#Now, install the package containing the interactive workbooks
+remotes::install_github("scrislee/INST314interactive")
+```
+The source code for these interactive workbooks is publicly available on [GitHub](https://github.com/scrislee/INST314interactive). 
+
+###
+
+Once you've installed the package, you should be able to run the tutorials using the `Tutorials` pane (a tab in the top-right pane, by default). Identify the tutorial you'd like to run and click `Start Tutorial`. If you run into any issues here, you may need to install `learnrhash` manually before running the tutorials. You can do so by typing `remotes::install_github("rundel/learnrhash")` in the console and running it. After this package has installed, the workbooks should run.
+
+## What should I know before using these workbooks?
+
+###
+
++ Although these notebooks are currently in a usable format, they are continually being improved. Be sure to check GitHub for the latest changes and release notes. 
+
++ If running the packages locally, then those with a most recent version of the `INST314interactive` package may notice additional features. For example, I am working on creating/curating, and embedding more video instruction.
+
++ The `learnrhash` package provides some ability for student progress tracking through these workbooks. At the end of each workbook there is a subsection called *Submit*, which includes a button for you to generate a `hash` code which represents your completed Tutorial. They will submit these hash codes using a Google Forms.  Note that the form requires you to be logged into your University of Maryland Google account (don't we all have at least two Google accounts these days?). 
+
+
+###
+
+Please give a polite round of applause for Adam Gilbert, who created these tutorials, as well as those of us who edit and maintain the INST 314 versions.
+
+Sincerely,
+Dr. Lee and the INST 314 Instructional Team
